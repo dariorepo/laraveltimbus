@@ -1,0 +1,193 @@
+
+
+header {
+  height: 180px;
+  display: flex;
+  background-color: #edf2f3;
+
+
+}
+
+.main {
+  display: flex;
+}
+
+footer{
+height: 200px;
+ background-color: #283a5e;
+ color: aliceblue;
+
+}
+
+.logo{
+max-width: 88%;
+padding: 10px;
+}
+.divlogo{
+  width: 10%;
+}
+.iconos{
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+  margin-top: 20px;
+
+}
+
+.listiconos{
+    display: flex;
+
+
+}
+
+.funciones{
+  /*
+  justify-content: center;
+  align-items: center;
+   */
+
+  text-align: center;
+  height: 100; /** la altura se tomo en base a lo que meta dentro */
+  background-color: rgba(240, 231, 231, 0.925);
+
+  flex: 20%;
+}
+
+.perfil{
+  height: 130px;
+  width: 130px;
+  border-radius: 100%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.perfil .imgusuario{
+  height: 100%;
+  width: 100%;
+}
+
+.principal{
+  border: none;
+  flex: 80%;
+  height: 700px;
+
+
+}
+.texto{
+  width: 80%;
+  color: #283a5e;
+
+}
+
+.form_reg{
+  text-align: center;
+  border:none;
+    width: 30%;
+    padding-top: 50px;
+    padding-bottom: 500px;
+    box-shadow: 0 1rem 1rem rgba(75, 73, 54, 0.842);
+    background:white;
+    backdrop-filter: 5px;
+    color: #dee20e;
+}
+
+
+/* .form{
+   ;
+} */
+input{
+
+  width: 80%;
+  height: 40px;
+  padding: 15px 6px;
+  margin-bottom: 15px;
+  border: none;
+  outline:none;
+  border-bottom: 2px solid black;
+  background: transparent;
+  cursor: pointer;
+  transition: 0.25s;
+
+}
+button{
+
+  margin: auto;
+  width: 50%;
+  height: 40px;
+  background-color:orange;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  color: aliceblue;
+
+
+}
+.reg{
+  padding-top: 90px;
+}
+
+.principalRuta{
+  border: solid;
+  color: brown;
+  align-content: center;
+  padding: 4%;
+  height: 700px;
+  left: 80px;
+}
+.imgruta{
+  height: 90%;
+  width: 80%;
+}
+
+.principalInstitucion{
+  color: brown;
+  align-content: center;
+  padding: 4%;
+  height: 70%;
+  left: 80%;
+
+  margin-left: 10%;
+  margin-top: 4%;
+  height: 700%;
+}
+
+.principalPago{
+  border: solid;
+  color: brown;
+  align-content: center;
+  padding: 3%;
+  height: 70%;
+  left: 80%;
+}
+
+
+.textoyo{
+ /*
+  text-align: right;
+  line-height: 30px; */
+  width: 80%;
+}
+
+.form_reg{
+  text-align: center;
+  border: none;
+  width: 30%;
+  box-shadow: #6eb4d8;
+  background: white;
+  backdrop-filter: 5px;
+  color: #283a5e;
+  border-radius: 30px;
+}
+
+.cole_red{
+  color: red;
+}
+
+.cole_verde{
+  color: rgb(75, 197, 75);
+}
+
+
+
+/* estilos de isntitucion*/
